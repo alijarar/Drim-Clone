@@ -1,0 +1,232 @@
+  .container { 
+      width: 100%; 
+      padding-right: 15px; 
+      padding-left: 15px; 
+      margin-right: auto; 
+      margin-left: auto;
+  }     
+  
+  .drim-hero { 
+      width: 100%; 
+      height: 100vh; 
+      padding-top: 84px; 
+      display: flex; 
+      align-items: center; 
+      overflow: hidden;
+  } 
+  
+  .container { 
+      max-width: 1240px; 
+      padding-right: 0; 
+      padding-left: 0;
+  } 
+  
+  *,:before,:after { 
+      box-sizing: border-box;
+  } 
+  
+  .row { 
+      display: flex; 
+      flex-wrap: wrap; 
+      margin-right: -15px; 
+      margin-left: -15px;
+  } 
+  
+  .drim-hero .row  { 
+      align-items: center;
+  } 
+  
+  .col-md-6 { 
+      position: relative; 
+      width: 100%; 
+      padding-right: 15px; 
+      padding-left: 15px;
+  } 
+  
+  @media (min-width: 768px){ 
+    .col-md-6 { 
+      flex: 0 0 50%; 
+      max-width: 50%;
+    } 
+  }     
+  
+  .drim-h1 { 
+      font-style: normal; 
+      font-weight: 600; 
+      font-size: 54px; 
+      line-height: 68px; 
+      font-family: "Poppins","Arial","Helvetica",sans-serif;
+  } 
+  
+  .drim-hero .hero-title  { 
+      font-family: "Poppins","Arial","Helvetica",sans-serif; 
+      color: #222;
+  } 
+  
+  .drim-h6 { 
+      font-style: normal; 
+      font-weight: 400; 
+      font-size: 24px; 
+      line-height: 36px; 
+      font-family: "Poppins","Arial","Helvetica",sans-serif;
+  } 
+  
+  .drim-hero .hero-subtitle-text  { 
+      font-family:  "Poppins","Arial","Helvetica",sans-serif; 
+      color:  #222;
+      margin-top: 20px;
+  } 
+  
+  .buttons-block { 
+      display: flex;
+  } 
+  
+  .drim-hero .buttons-block  { 
+      margin-top: 40px; 
+      display: flex;
+  } 
+  
+  img { 
+      vertical-align:  middle; 
+      border-style:  none;
+      margin: 0; 
+      padding: 0; 
+      border: 0;
+  } 
+  
+  .d-none { 
+      display: none !important;
+  } 
+  
+  .h-auto { 
+      height: auto !important;
+  } 
+  
+  .iphone-mask { 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      z-index: 5;
+  } 
+  
+  img[data-src] { 
+      opacity: 0;
+  } 
+  
+  video { 
+      margin: 0; 
+      padding: 0; 
+      border: 0;
+  } 
+  
+  .d-block { 
+      display: block !important;
+  } 
+  
+  .w-100 { 
+      width: 100% !important;
+  } 
+  
+  .h-100 { 
+      height: 100% !important;
+  } 
+  
+  span { 
+      margin: 0; 
+      padding: 0; 
+      border: 0;
+  } 
+  
+  .font-weight-500 { 
+      font-weight: 500;
+  } 
+  
+  .drim-hero .hero-subtitle-text .font-weight-500  { 
+      font-weight: 500;
+  } 
+  
+  a { 
+      color:  #007bff; 
+      text-decoration:  none; 
+      background-color:  rgba(0,0,0,0);
+      margin: 0; 
+      padding: 0; 
+      border: 0;
+  } 
+  
+  .button-drim { 
+      padding: 15px 18px; 
+      font-style: normal; 
+      font-weight: 600; 
+      font-size: 16px; 
+      line-height: 24px; 
+      text-decoration: none; 
+      font-family: "Poppins","Arial","Helvetica",sans-serif; 
+      outline: none; 
+      border: none; 
+      transition: all .3s; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+  } 
+  
+  .button-drim.button-drim-blue { 
+      background: #006bff; 
+      color: #fff;
+  } 
+  
+  a:hover { 
+      color: #0056b3; 
+      text-decoration: underline;
+  } 
+  
+  .button-drim:hover,.button-drim:active { 
+      outline: none; 
+      border: none;
+  } 
+  
+  .button-drim.button-drim-blue:hover { 
+      background: #0060e6;
+  } 
+  
+  .button-drim.button-drim-purple { 
+      background: #5d01a4; 
+      color: #fff;
+  } 
+  
+  .buttons-block .button-drim:nth-child(n + 2)  { 
+      margin-left: 16px;
+  } 
+  
+  .drim-hero .buttons-block .button-drim:nth-child(n + 2)  { 
+      margin-left: 16px;
+  } 
+  
+  .button-drim.button-drim-purple:hover { 
+      background: #6b01bd;
+  } 
+  
+  svg { 
+      overflow: hidden; 
+      vertical-align: middle;
+  } 
+  
+  .button-drim svg:last-child  { 
+      margin-left: 10px; 
+      transition: all .3s;
+  }  
+
+
+  .drim-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px;
+  }
+
+  
